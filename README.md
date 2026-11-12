@@ -13,7 +13,7 @@ An AI-powered weather assistant built with PydanticAI, Google Gemini, and Weathe
 ✅ Continuous conversation loop until user exits
 ✅ Clothing recommendations based on weather conditions
 
-# 🏗️ Architecture
+🏗️ Architecture
 Plain Text
 User
 ↓
