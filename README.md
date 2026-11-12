@@ -2,6 +2,8 @@
 
 An AI-powered weather assistant built with PydanticAI, Google Gemini, and WeatherAPI. The application retrieves live weather data for any city, uses an AI agent to process the results, and returns a structured weather report with recommendations.
 
+![Weather AI Assistant Architecture](Explain.png)
+
 # 🚀 Features
 ✅ Live weather data from WeatherAPI
 ✅ AI-powered reasoning using Google Gemini
