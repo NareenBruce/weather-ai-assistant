@@ -1,8 +1,10 @@
-🌦️ Weather AI Assistant
+# 🌦️ Weather AI Assistant
 
 An AI-powered weather assistant built with PydanticAI, Google Gemini, and WeatherAPI. The application retrieves live weather data for any city, uses an AI agent to process the results, and returns a structured weather report with recommendations.
 
-🚀 Features
+![Weather AI Assistant Architecture](Explain.png)
+
+# 🚀 Features
 ✅ Live weather data from WeatherAPI
 ✅ AI-powered reasoning using Google Gemini
 ✅ Tool-calling via PydanticAI
@@ -11,25 +13,25 @@ An AI-powered weather assistant built with PydanticAI, Google Gemini, and Weathe
 ✅ Continuous conversation loop until user exits
 ✅ Clothing recommendations based on weather conditions
 
-🏗️ Architecture
+# 🏗️ Architecture
 Plain Text
 User
-↓
+->
 PydanticAI Agent
-↓
+->
 Google Gemini
-↓
+->
 Weather Tool
-↓
+->
 WeatherAPI
-↓
+->
 Live Weather Data
-↓
+->
 Pydantic Validation
-↓
+->
 Structured Weather Report
 
-🧩 Technologies Used
+# 🧩 Technologies Used
 Technology	Purpose
 Python	Application runtime
 PydanticAI	AI Agent framework
@@ -39,7 +41,7 @@ Pydantic	Structured output validation
 Requests	API communication
 Python Dotenv	Environment variable management
 
-🤖 How the AI Agent Works
+# 🤖 How the AI Agent Works
 
 This project demonstrates a tool-using AI agent.
 
@@ -63,7 +65,7 @@ Agent:
 → Generates structured report
 → Provides recommendation
 
-📂 Project Structure
+# 📂 Project Structure
 Plain Text
 project/
 │
@@ -72,7 +74,7 @@ project/
 ├── requirements.txt
 └── README.md
 
-⚙️ Installation
+# ⚙️ Installation
 1. Clone the Repository
 Shell
 git clone https://github.com/yourusername/weather-ai-assistant.git
@@ -96,7 +98,8 @@ source .venv/bin/activate
 3. Install Dependencies
 Shell
 pip install -r requirements.txt
-🔑 Configure Environment Variables
+
+# 🔑 Configure Environment Variables
 
 Create a .env file in the project root:
 
@@ -105,7 +108,8 @@ env isn’t fully supported. Syntax highlighting is based on Shell.
 GOOGLE_API_KEY=your_google_api_key
  
 WEATHER_API_KEY=your_weatherapi_key
-🌤️ Getting a WeatherAPI Key
+
+# 🌤️ Getting a WeatherAPI Key
 Create an account at WeatherAPI.com
 Navigate to your Dashboard
 Copy your API Key
@@ -175,7 +179,8 @@ Predictable responses
 Type safety
 Easy integration with APIs and databases
 Reliable automation
-📝 Example Weather Report Schema
+
+# 📝 Example Weather Report Schema
 Python
 class WeatherReport(BaseModel):
 city: str
@@ -184,7 +189,8 @@ conditions: str
 humidity: int
 wind_kph: float
 clothing_recommendation: str
-🎯 Learning Objectives
+
+# 🎯 Learning Objectives
 
 This project demonstrates:
 
@@ -196,7 +202,8 @@ External API Integration
 Pydantic Validation
 Google Gemini Integration
 Terminal-Based AI Applications
-🔮 Future Improvements
+
+# 🔮 Future Improvements
 Weather forecasts (7-day forecast)
 Air Quality Index reporting
 Weather alerts and warnings
@@ -205,10 +212,11 @@ Voice input support
 Streamlit or Flask web interface
 Historical weather trends
 Multi-agent architecture using LangGraph
-📜 License
+
+# 📜 License
 
 This project is intended for learning and experimentation with AI agents, PydanticAI, and tool-calling workflows.
 
-Summary
+# Summary
 
 Weather AI Assistant is a beginner-friendly AI agent project that combines PydanticAI, Google Gemini, and WeatherAPI to retrieve live weather data, reason over the results, and return validated structured weather reports through a simple terminal interface.
